@@ -1,0 +1,21 @@
+$block: 'intro';
+
+.#{$block} {
+  
+&__row {
+    padding-top: 300px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 300px 1em 0 1em;
+    position: relative;
+  }
+
+  &__title {
+    font-family: 'solomon_blackregular';
+    color: #000;
+    font-size: 63px;
+    line-height: 67px;
+    margin: 0;
+    padding: 0;
+  }
+}
